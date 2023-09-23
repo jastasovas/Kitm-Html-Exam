@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Home page</title>
   </head>
   <body>
@@ -13,9 +14,9 @@
 
       <nav>
         <a href="#sugges">Travel suggestions</a>
-        <a href="">Car rental</a>
+        <a href="carRent">Car rental</a>
         <a href="#tipTrick">Tips for travelers</a>
-        <a href="">Travel journal</a>
+        <a href="journal">Travel journal</a>
       </nav>
     </header>
 
@@ -100,7 +101,44 @@
           <li>Always visit the local tourism information center.</li>
         </ul>
       </section>
-      <section id="carRent"></section>
+      <section id="carRent">
+        <h2>Car rental</h2>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Car</th>
+              <th>Car Image</th>
+              <th colspan="3">Days/Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>BMW</td>
+              <td><img src="/img/bmw.jpg" alt="" /></td>
+              <td>1 day/25€</td>
+              <td>2 days/45€</td>
+              <td>3 days/60€</td>
+            </tr>
+
+            <tr>
+              <td>Audi</td>
+              <td><img src="/img/audi.jpg" alt="" /></td>
+              <td>1 day/20€</td>
+              <td>2 days/35€</td>
+              <td>3 days/65€</td>
+            </tr>
+
+            <tr>
+              <td>VW</td>
+              <td><img src="/img/vw.jpg" alt="" /></td>
+              <td>1 day/15€</td>
+              <td>2 days/25€</td>
+              <td>3 days/45€</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
       <section id="journal"></section>
     </main>
 
