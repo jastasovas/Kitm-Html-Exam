@@ -12,14 +12,94 @@
       /></a>
       <a href="/loginForm.html" target="_self">Log in</a>
 
-      <nav>
+      <!-- <nav>
         <a href="">Travel suggestions</a>
         <a href="">Car rental</a>
         <a href="">Tips for travelers</a>
         <a href="">Travel journal</a>
-      </nav>
+      </nav> -->
     </header>
-    <main></main>
+    <main>
+      <h2>Send us an inquiry</h2>
+      <form action="">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" required />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" required />
+        </div>
+        <div>
+          <label for="phone">Phone number</label>
+          <input type="text" required />
+        </div>
+        <div>
+          <label for="country">Country</label>
+          <select name="country" id="country">
+            <option value="country">Select country</option>
+            <option value="ltu">Lithuania</option>
+            <option value="usa">USA</option>
+            <option value="fr">France</option>
+          </select>
+        </div>
+        <div>
+          <label for="date">Set date</label>
+          <input type="date" />
+        </div>
+        <div>
+          <fieldset>
+            <legend>Choose your language:</legend>
+            <div>
+              <input type="radio" name="ltu" />
+              <label for="ltu">Ltu</label>
+            </div>
+            <div>
+              <input type="radio" name="ltu" />
+              <label for="ltu">Eng</label>
+            </div>
+            <div>
+              <input type="radio" name="ltu" />
+              <label for="ltu">Lv</label>
+            </div>
+            <div>
+              <input type="radio" name="ltu" />
+              <label for="ltu">Esp</label>
+            </div>
+          </fieldset>
+        </div>
+        <div>
+          <fieldset>
+            <legend>Select gender:</legend>
+            <div>
+              <input type="checkbox" />
+              <label for="">Male</label>
+            </div>
+            <div>
+              <input type="checkbox" />
+              <label for="">Female</label>
+            </div>
+            <div>
+              <input type="checkbox" />
+              <label for="">Cat</label>
+            </div>
+            <div>
+              <input type="checkbox" />
+              <label for="">Dog</label>
+            </div>
+          </fieldset>
+        </div>
+
+        <div>
+          <label for="story">Tell us what you need:</label>
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+          <a href="/homePage.html"><button type="button">Send</button></a>
+        </div>
+      </form>
+    </main>
     <footer>
       <p>Contact us:</p>
       <address>
